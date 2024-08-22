@@ -5,6 +5,7 @@
     font-family: Arial, sans-serif;
 }
 
+/* INDEX /////////////////////////////////////////////////////////////////////////////////////////*/
 body {
     background-color: #bba694
 }
@@ -196,4 +197,20 @@ header .navbar li a:hover {
 
 .redesSociales li a:hover {
     color: #ffffd5;
+}
+/* INDEX FIN /////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* COOKIES PAGE //////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Carousel */
+
+.carousel-item {
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    width: 100vw; /* Ocupa todo el ancho de la ventana */
+}
+
+.carousel-item img {
+    object-fit: cover; /* Cubre toda el área disponible */
+    height: 100%;
+    width: 100%;
 }
